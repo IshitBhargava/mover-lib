@@ -1,0 +1,11 @@
+[project]
+name = "mover-lib"
+version = "0.1.0"
+dependencies = ["matplotlib"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["mover"]
